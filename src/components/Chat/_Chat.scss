@@ -1,0 +1,25 @@
+.chat {
+  background-color: #252a30;
+  border-bottom: 1px solid #70828c;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  &_selected {
+    opacity: 0.8;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+  &__image {
+    margin: 20px;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+  &__title {
+    color: #fff;
+    font-size: 18px;
+  }
+}

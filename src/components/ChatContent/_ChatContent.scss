@@ -1,0 +1,28 @@
+.content {
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  &_closed {
+    display: none;
+  }
+  &__closeBtn {
+    margin: 10px 10px 10px auto;
+  }
+  &__container {
+    margin: auto 10px 0;
+    padding: 0 30px;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  &__input {
+    margin: 30px 0;
+  }
+}
